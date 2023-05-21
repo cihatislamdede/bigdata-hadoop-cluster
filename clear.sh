@@ -1,0 +1,10 @@
+# WARNING: this script will remove all containers and images.
+echo "stopping all containers..."
+docker stop $(docker ps -aq)  || echo "no containers to stop"
+echo "removing all containers..."
+docker rm $(docker ps -aq) || echo "no containers to remove"
+echo "removing all images..."
+docker rmi cid-hadoop:1.0 || echo "no images to remove"
+echo "removing network..."
+docker network rm hadoop || echo "no hadoop network to remove"
+echo "done."
