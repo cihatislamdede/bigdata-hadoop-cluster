@@ -16,9 +16,7 @@ git clone https://github.com/cihatislamdede/bigdata-hadoop-cluster
 sudo chmod +x start.sh
 ./start.sh
 ```
-
 ```bash
-*** you will see the following output:***
 start hadoop-master container...
 start hadoop-slave1 container...
 start hadoop-slave2 container...
@@ -38,7 +36,6 @@ root@hadoop-master:~#
 ```
 
 ```bash
-***output***
 input file1.txt:
 Hello Hadoop
 
@@ -51,7 +48,43 @@ Hadoop    1
 Hello    2
 ```
 
-### 5. Clear all environment
+### 5. Some useful commands
+
+#### copy file to hadoop cluster
+
+```bash
+docker cp BigData/ hadoop-master:/root
+docker cp 18data.txt hadoop-master:/root
+```
+
+#### docker first run
+
+```bash
+cp 18data.txt input/
+cd BigData
+mvn package
+cd ..
+cp BigData/target/BigData-1.0-SNAPSHOT.jar input/
+hdfs dfs -put -f BigData/target/BigData-1.0-SNAPSHOT.jar input/
+hdfs dfs -put -f input/18data.txt input/
+yarn jar input/BigData-1.0-SNAPSHOT.jar org.example.Summation input/18data.txt output
+hdfs dfs -cat output/*
+```
+
+#### docker re-run
+
+```bash
+rm -r BigData/target/
+cd BigData
+mvn package
+cd ..
+cp BigData/target/BigData-1.0-SNAPSHOT.jar input/
+hdfs dfs -put -f BigData/target/BigData-1.0-SNAPSHOT.jar input/
+yarn jar input/BigData-1.0-SNAPSHOT.jar org.example.Summation input/18data.txt output
+hdfs dfs -cat output/*
+```
+
+### 6. Clear all environment
 
 ```bash
 ./clear.sh
