@@ -1,0 +1,100 @@
+1	Harry Potter and the Half-Blood Prince (Harry Potter, #6)	1:9896	652	4:556485	total:2298124	16	9	Scholastic Inc.	28062	2006	eng	J.K. Rowling	4.57	2:25317	5:1546466		3:159960
+2	Harry Potter and the Order of the Phoenix (Harry Potter, #5)	1:12455	870	4:604283	total:2358637	1	9	Scholastic Inc.	29770	2004	eng	J.K. Rowling	4.5	2:37005	5:1493113	0439358078	3:211781
+3	Harry Potter and the Sorcerer's Stone (Harry Potter, #1)	1:108202	309	4:1513191	total:6587388	1	11	Scholastic Inc	75911	2003	eng	J.K. Rowling	4.47	2:130310	5:4268227		3:567458
+4	Harry Potter and the Chamber of Secrets (Harry Potter, #2)	1:11896	352	4:706082	total:2560657	1	11	Scholastic	244	2003	eng	J.K. Rowling	4.42	2:49353	5:1504505	0439554896	3:288821
+5	Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)	1:10128	435	4:630534	total:2610317	1	5	Scholastic Inc.	37093	2004	eng	J.K. Rowling	4.57	2:24849	5:1749958	043965548X	3:194848
+6	Harry Potter and the Goblet of Fire (Harry Potter, #4)	1:9419	734	4:606800	total:2431085	28	9	Scholastic	31978	2002	eng	J.K. Rowling	4.5600000000000005	2:24282	5:1612165		3:178419
+8	Harry Potter Boxed Set, Books 1-5 (Harry Potter, #1-5)	1:402	2690	4:4650	total:43968	13	9	Scholastic	166	2004	eng	J.K. Rowling	4.78	2:283	5:37432	0439682584	3:1201
+9	"Unauthorized Harry Potter Book Seven News: ""Half-Blood Prince"" Analysis and Speculation"	1:0	152	4:7	total:28	26	4	Nimble Books	1	2005	en-US	W. Frederick Zimmerman	3.79	2:5	5:10	0976540606	3:6
+10	Harry Potter Collection (Harry Potter, #1-6)	1:257	3342	4:4358	total:30313	12	9	Scholastic	809	2005	eng	J.K. Rowling	4.73	2:218	5:24406	0439827604	3:1074
+12	The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy, #1-5)	1:3443	815	4:75683	total:274268	1	11	Gramercy Books	255	2005	eng	Douglas Adams	4.37	2:7613	5:157499	0517226952	3:30030
+13	The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1-5)	1:3443	815	4:75683	total:274268	30	4	Del Rey Books	4119	2002	eng	Douglas Adams	4.37	2:7613	5:157499	0345453743	3:30030
+14	The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)	1:28636	215	4:396332	total:1350083	3	8	Crown	470	2004	eng	Douglas Adams	4.22	2:54163	5:682711	1400052920	3:188241
+18	The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy, #1-5)	1:3443	815	4:75683	total:274268	17	1	Wings Books	194	1996	eng	Douglas Adams	4.37	2:7613	5:157499	0517149257	3:30030
+21	A Short History of Nearly Everything	1:5140	544	4:94040	total:276166	14	9	Broadway Books	9545	2004	eng	Bill Bryson	4.21	2:9367	5:129555	076790818X	3:38064
+22	Bill Bryson's African Diary	1:249	55	4:2409	total:8393	3	12	Broadway Books	503	2002	eng	Bill Bryson	3.45	2:985	5:1408	0767915062	3:3342
+23	Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right	1:36	256	4:1069	total:2656	14	9	Broadway Books	131	2004	eng	Bill Bryson	3.88	2:128	5:729	0767910435	3:694
+24	In a Sunburned Country	1:987	335	4:34941	total:85287	15	5	Broadway Books	4298	2001	eng	Bill Bryson	4.07	2:2900	5:30483	0767903862	3:15976
+25	I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away	1:741	304	4:22652	total:56082	28	6	Broadway Books	2224	2000	eng	Bill Bryson	3.9	2:2709	5:15891	076790382X	3:14089
+26	The Lost Continent: Travels in Small Town America	1:1373	299	4:18427	total:49012	28	8	William Morrow Paperbacks	2276	1990	eng	Bill Bryson	3.83	2:3219	5:14013	0060920084	3:11980
+27	Neither Here nor There: Travels in Europe	1:1172	254	4:20655	total:54388	28	3	William Morrow Paperbacks	2264	1993	eng	Bill Bryson	3.86	2:3305	5:15888	0380713802	3:13368
+28	Notes from a Small Island	1:1487	324	4:35153	total:89491	28	5	William Morrow Paperbacks	3335	1997	eng	Bill Bryson	3.92	2:4717	5:27216	0380727501	3:20918
+29	The Mother Tongue: English and How It Got That Way	1:490	270	4:13483	total:33416	28	9	William Morrow Paperbacks	2123	1991	eng	Bill Bryson	3.93	2:1691	5:10087	0380715430	3:7665
+30	J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings	1:920	1728	4:22283	total:106621	25	9	Ballantine Books	1548	2012	eng	J.R.R. Tolkien	4.6	2:1443	5:75533	0345538374	3:6442
+31	The Lord of the Rings (The Lord of the Rings, #1-3)	1:5774	1184	4:126639	total:539513	21	10	Houghton Mifflin Harcourt	90	2004	eng	J.R.R. Tolkien	4.5	2:11142	5:352247	0618517650	3:43711
+34	The Fellowship of the Ring (The Lord of the Rings, #1)	1:45879	398	4:593379	total:2255826	5	9	Houghton Mifflin Harcourt	13935	2003	eng	J.R.R. Tolkien	4.36	2:65166	5:1314771	0618346252	3:236631
+36	The Lord of the Rings: Weapons and Warfare	1:335	218	4:4037	total:20920	5	11	Houghton Mifflin Harcourt	45	2003	eng	Chris   Smith	4.53	2:319	5:14522	0618391002	3:1707
+37	The Lord of the Rings: Complete Visual Companion	1:4	224	4:82	total:380	15	11	Houghton Mifflin Harcourt	6	2004	eng	Jude Fisher	4.5	2:10	5:253	0618510826	3:31
+38	The Lord of the Rings Box Set	1:5774	1223	4:126639	total:539513	19	9		19	2001	eng	J.R.R. Tolkien	4.5	2:11142	5:352247	0618153977	3:43711
+45	Agile Web Development with Rails: A Pragmatic Guide	1:56	558	4:820	total:2080	28	7	Pragmatic Bookshelf	59	2005	eng	Dave Thomas	3.84	2:124	5:580	097669400X	3:500
+46	Ruby Quickly: Ruby and Rails for the Real World	1:1	360	4:0	total:5	1	8	Manning Publications	0	2006		Mark   Watson	3.4	2:0	5:2	1932394745	3:2
+50	Hatchet (Brian's Saga, #1)	1:14007	208	4:92227	total:288973	1	4	Atheneum Books for Young Readers: Richard Jackson Books	12157	2000	eng	Gary Paulsen	3.72	2:26144	5:85440	0689840926	3:71155
+51	"Hatchet: A Guide for Using ""Hatchet"" in the Classroom"	1:3	48	4:8	total:36	28	8	Teacher Created Resources	2	1994	eng	Donna Ickes	4.0	2:2	5:18	1557344493	3:5
+53	Guts: The True Stories behind Hatchet and the Brian Books	1:54	144	4:830	total:2400	23	1	Delacorte Press	336	2001	eng	Gary Paulsen	3.88	2:139	5:770	0385326505	3:607
+54	Molly Hatchet - 5 of the Best	1:1	56	4:0	total:6	10	6	Cherry Lane Music Company	0	2003	eng	Molly Hatchet	4.33	2:0	5:5	1575606240	3:0
+55	Hatchet Jobs: Writings on Contemporary Fiction	1:10	228	4:43	total:123	1	11	The New Press	16	2005	en-US	Dale Peck	3.46	2:10	5:22	1595580271	3:38
+56	The Woodsman and His Hatchet: Eighty Years on Back Country Survival	1:0	150	4:0	total:10	1	10	Stoneydale Press	0	1996		Bud Cheff Sr.	3.6	2:2	5:4	0912299622	3:4
+57	A Changeling for All Seasons (Changeling Seasons #1)	1:10	304	4:49	total:171	1	11	Changeling Press	4	2005	eng	Angela Knight	3.76	2:13	5:57	1595962808	3:42
+58	Changeling (Changeling, #1)	1:39	256	4:352	total:1049	17	8	Viking Juvenile	112	2006	eng	Delia Sherman	3.6	2:97	5:228	0670059676	3:333
+59	The Changeling Sea	1:79	137	4:1623	total:4836	14	4	Firebird	306	2003	eng	Patricia A. McKillip	4.06	2:195	5:1940	0141312629	3:999
+61	The Changeling	1:13	228	4:453	total:1365	8	6	iUniverse	97	2004	eng	Zilpha Keatley Snyder	4.17	2:48	5:611	0595321801	3:240
+65	Shadows in the Starlight (Changeling Detective, #2)	1:6	288	4:77	total:199	6	2	Tor Books	6	2007		Elaine Cunningham	3.68	2:11	5:41	0765348527	3:64
+66	The Changeling (Daughters of England, #15)	1:2	369	4:151	total:439	28	8	Ivy Books	13	1990	eng	Philippa Carr	3.98	2:21	5:152	0449146979	3:113
+67	The Known World	1:933	388	4:12417	total:33493	29	8	Amistad	2632	2006	eng	Edward P. Jones	3.83	2:2460	5:9894	0061159174	3:7789
+71	Traders, Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives	1:38	334	4:569	total:1645	15	5	FT Press	83	2006	eng	Satyajit Das	3.83	2:112	5:492	0273704745	3:434
+72	Artesia: Adventures in the Known World	1:0	352	4:24	total:53	14	12	Archaia	4	2005	eng	Mark Smylie	4.13	2:2	5:19	1932386106	3:8
+74	The John McPhee Reader (John McPhee Reader, #1)	1:2	416	4:224	total:624	1	6	Farrar, Straus and Giroux	37	1982	eng	John McPhee	4.42	2:6	5:336	0374517193	3:56
+75	Uncommon Carriers	1:21	248	4:861	total:1895	16	5	Farrar Straus Giroux	203	2006	en-US	John McPhee	3.95	2:75	5:529	0374280398	3:409
+76	Heirs of General Practice	1:1	128	4:120	total:287	1	4	Farrar, Straus and Giroux	23	1986	eng	John McPhee	4.16	2:6	5:110	0374519749	3:50
+77	The Control of Nature	1:25	288	4:1458	total:3747	1	9	Farrar, Straus and Giroux	305	1990	en-US	John McPhee	4.24	2:88	5:1671	0374522596	3:505
+78	Annals of the Former World	1:56	720	4:1003	total:3472	6	1	Farrar, Straus and Giroux	227	1999	eng	John McPhee	4.34	2:101	5:1933	0374518734	3:379
+79	Coming Into the Country	1:57	448	4:2291	total:6049	1	4	Farrar, Straus and Giroux	262	1991	eng	John McPhee	4.22	2:149	5:2672	0374522871	3:880
+80	La Place de la Concorde Suisse	1:7	160	4:334	total:816	1	4	Farrar, Straus and Giroux	53	1994	fre	John McPhee	3.92	2:44	5:239	0374519323	3:192
+81	Giving Good Weight	1:3	288	4:251	total:587	1	4	Farrar, Straus and Giroux	36	1994	eng	John McPhee	4.22	2:10	5:242	0374516006	3:81
+82	The Second John McPhee Reader (John McPhee Reader, #2)	1:0	393	4:72	total:202	28	2	Farrar, Straus and Giroux	1	1996		John McPhee	4.37	2:2	5:103	0374256861	3:25
+83	Rising from the Plains	1:7	208	4:554	total:1418	1	11	Farrar, Straus and Giroux	99	1987	eng	John McPhee	4.23	2:31	5:616	0374520658	3:210
+85	The Heidi Chronicles	1:38	81	4:505	total:1513	1	3	Dramatists Play Service	70	2002	eng	Wendy Wasserstein	3.75	2:139	5:421	0822205106	3:410
+86	The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic	1:84	249	4:908	total:2776	2	7	Vintage	64	1991	eng	Wendy Wasserstein	3.84	2:197	5:894	0679734996	3:693
+89	Active Literacy Across the Curriculum: Strategies for Reading, Writing, Speaking, and Listening	1:1	138	4:9	total:31	29	3	Routledge	1	2006	eng	Heidi Hayes Jacobs	3.94	2:0	5:11	1596670231	3:10
+90	Simply Beautiful Beaded Jewelry	1:1	128	4:22	total:64	14	3	North Light Books	4	2006	en-US	Heidi Boyd	3.77	2:5	5:17	1581807740	3:19
+91	Always Enough: God's Miraculous Provision Among the Poorest Children on Earth	1:9	192	4:247	total:1009	1	9	Chosen Books	53	2003	eng	Heidi Baker	4.46	2:18	5:632	0800793617	3:103
+92	Mapping the Big Picture: Integrating Curriculum & Assessment K-12	1:3	108	4:23	total:77	28	1	Association for Supervision & Curriculum Development	2	1997	en-US	Heidi Hayes Jacobs	3.66	2:4	5:19	0871202867	3:28
+93	Heidi (Heidi, #1-2)	1:2312	352	4:55474	total:167957	15	11	Kingfisher	2289	2002	eng	Johanna Spyri	3.99	2:8754	5:61857	0753454947	3:39560
+94	Getting Results with Curriculum Mapping	1:2	192	4:8	total:56	15	11	ASCD	5	2004	eng	Heidi Hayes Jacobs	3.25	2:12	5:11	0871209993	3:23
+95	Cinnamon and Roses (Rose Trilogy, #1)	1:3	298	4:22	total:82	1	1	Leisure Books	5	2000		Heidi Betts	3.83	2:8	5:30	0843946687	3:19
+96	There's Always Enough: The Miraculous Move of God in Mozambique	1:9	192	4:247	total:1009	28	4	Sovereign World	6	2003	eng	Rolland Baker	4.46	2:18	5:632	1852402873	3:103
+98	What to Expect the First Year (What to Expect)	1:404	832	4:5458	total:15480	16	10	Workman Publishing Company	663	2003	eng	Heidi Murkoff	3.89	2:877	5:4989	0761129588	3:3752
+99	The Player's Handbook: The Ultimate Guide on Dating and Relationships	1:1	123	4:7	total:34	10	5	One Hour Entertainment	8	2004	eng	Heidi Fleiss	3.82	2:5	5:14	0972016414	3:7
+100	Simply Beautiful Beading: 53 Quick and Easy Projects	1:0	128	4:30	total:86	19	8	North Light Books	4	2004	en-US	Heidi Boyd	3.78	2:9	5:23	1581805632	3:24
+101	Chasing Jordan	1:4	240	4:7	total:36	11	7	Serpent's Tail	7	2005		Heidi W. Boehringer	3.44	2:3	5:10	1852428937	3:12
+102	Seven-Year Seduction	1:3	184	4:31	total:89	14	2	Silhouette Desire	6	2006		Heidi Betts	3.61	2:7	5:18	0373767099	3:30
+103	God Emperor of Dune (Dune Chronicles, #4)	1:1228	423	4:20916	total:63372	15	6	Ace Books	167	1987	eng	Frank Herbert	3.85	2:4926	5:20076	0441294677	3:16226
+104	Dune (Dune Chronicles, #1)	1:15670	528	4:200976	total:688418	2	8	Ace Books	468	2005	eng	Frank Herbert	4.23	2:27945	5:351127		3:92700
+105	Chapterhouse: Dune (Dune Chronicles #6)	1:753	436	4:14899	total:44113	1	7	Ace Books	569	1987	eng	Frank Herbert	3.91	2:2941	5:14828	0441102670	3:10692
+106	Dune Messiah (Dune Chronicles #2)	1:1271	331	4:47997	total:119887	15	7	Ace Books	2372	1987	eng	Frank Herbert	3.88	2:6672	5:33606	0441172695	3:30341
+107	Dreamer of Dune: The Biography of Frank Herbert	1:18	592	4:275	total:849	1	7	Tor Books	21	2004	en-US	Brian Herbert	4.01	2:42	5:329	0765306476	3:185
+108	The Secrets of Frank Herbert's Dune	1:0	160	4:10	total:44	31	10	iBooks	0	2000		James Van Hise	3.52	2:7	5:10	074340730X	3:17
+109	Heretics of Dune (Dune Chronicles, #5)	1:791	480	4:18351	total:51869	16	4	Putnam	20	1984	eng	Frank Herbert	3.86	2:3445	5:15664	0399128980	3:13618
+110	The Road to Dune	1:104	426	4:1544	total:5143	29	8	Tor Science Fiction	83	2006	eng	Frank Herbert	3.88	2:336	5:1775	0765353709	3:1384
+112	Children of Dune (Dune Chronicles #3)	1:1021	408	4:38518	total:99703	15	5	Ace Books	1408	1987	eng	Frank Herbert	3.93	2:5191	5:30710		3:24263
+117	Heretics of Dune (Dune Chronicles #5)	1:791	471	4:18351	total:51869	15	8	Ace Books	642	1987	eng	Frank Herbert	3.86	2:3445	5:15664	0441328008	3:13618
+119	The Lord of the Rings: The Art of the Fellowship of the Ring	1:270	192	4:5579	total:28117	12	6	Houghton Mifflin Harcourt	102	2002	eng	Gary Russell	4.6	2:264	5:20057	0618212906	3:1947
+121	The Patriarch: The Rise and Fall of the Bingham Dynasty	1:4	576	4:10	total:24	1	2	Touchstone	1	1993		Susan E. Tifft	3.67	2:2	5:8	0671797077	3:0
+122	The Power of One (The Power of One, #1)	1:883	544	4:22532	total:74341	29	9	Ballantine Books	4580	1996	eng	Bryce Courtenay	4.35	2:1947	5:40853	034541005X	3:8126
+125	The Power of One: Daisy Bates and the Little Rock Nine	1:1	192	4:10	total:37	20	12	Clarion Books	7	2004		Dennis Brindell Fradin	4.41	2:0	5:22	061831556X	3:4
+128	The Power of One Christlike Life	1:1	159	4:8	total:40	1	7	Whitaker House	3	2000		Francis Frangipane	4.22	2:3	5:23	0883686287	3:5
+129	The Power of One: One Person, One Rule, One Month	1:0	256	4:4	total:18	1	11	Thomas Nelson	1	2004	en-US	John C. Maxwell	4.22	2:2	5:10	0785260056	3:2
+130	Power of an Hour: Business and Life Mastery in One Hour a Week	1:12	205	4:55	total:207	19	5	Wiley	16	2006	eng	Dave Lakhani	3.34	2:38	5:39	0471780936	3:63
+131	The Power of One: The Solo Play for Playwrights, Actors, and Directors	1:1	240	4:4	total:15	7	2	Heinemann Drama	0	2000	eng	Louis E. Catron	3.67	2:2	5:5	0325001537	3:3
+132	How to Buy, Sell & Profit on eBay: Kick-Start Your Home-Based Business in Just Thirty Days	1:2	336	4:31	total:90	3	5	William Morrow Paperbacks	9	2005	eng	Adam Ginsberg	3.48	2:14	5:15	006076287X	3:28
+133	eBay for Dummies	1:6	386	4:64	total:217	30	10	Wiley	9	2006	eng	Marsha Collier	3.51	2:28	5:43	0470045299	3:76
+134	eBay PowerSeller Secrets: Insider Tips from eBay's Most Successful Sellers	1:5	385	4:22	total:64	24	9	McGraw-Hill/Osborne	2	2004		Debra Schepp	3.59	2:2	5:14	0072258691	3:21
+135	What to Sell on ebay and Where to Get It: The Definitive Guide to Product Sourcing for eBay and Beyond	1:0	260	4:5	total:24	24	1	McGraw-Hill	0	2006	eng	Chris Malta	3.62	2:4	5:7	0072262788	3:8
+137	Starting an eBay Business for Dummies	1:5	384	4:37	total:117	17	9	Wiley	4	2004	eng	Marsha Collier	3.55	2:17	5:27	0764569244	3:31
+138	eBay: Top 100 Simplified Tips & Tricks	1:0	260	4:3	total:11	6	6	Wiley	0	2006	eng	Julia Wilkinson	4.27	2:1	5:6	0471933821	3:1
+139	ebay Timesaving Techniques for Dummies	1:1	391	4:4	total:23	31	5	Wiley	1	2004	en-US	Marsha Collier	3.39	2:5	5:6	0764559915	3:7
+140	eBay Business All-in-One Desk Reference for Dummies	1:1	864	4:9	total:18	25	4	Wiley	3	2005	en-US	Marsha Collier	3.89	2:1	5:5	0764584383	3:2
+141	Ruby Cookbook	1:4	873	4:65	total:185	29	7	O'Reilly Media	4	2006	eng	Lucas Carlson	3.83	2:12	5:54	0596523696	3:50
+142	Ruby Ann's Down Home Trailer Park Cookbook	1:2	240	4:16	total:51	3	5	Citadel	5	2005	eng	Ruby Ann Boxcar	4.12	2:1	5:23	0806523492	3:9
+144	Ruby Ann's Down Home Trailer Park BBQin' Cookbook	1:0	206	4:9	total:13	3	5	Citadel	2	2005	eng	Ruby Ann Boxcar	4.08	2:1	5:3	0806525363	3:0
+146	Ruby's Low-Fat Soul Food Cookbook	1:0	175	4:1	total:5	1	9	McGraw-Hill/Contemporary Books	0	1996		Ruby Banks-Payne	4.8	2:0	5:4	0809231530	3:0
