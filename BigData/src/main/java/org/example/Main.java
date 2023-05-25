@@ -17,41 +17,24 @@ public class Main {
         Path input = new Path(files[0]);
         Path output = new Path(files[1]);
 
-        // Summation
-        /*Job j = new Job(c, "summation");
-        j.setJarByClass(Summation.class);
-        j.setMapperClass(Summation.SummationMapper.class);
-        j.setReducerClass(Summation.SummationReducer.class);
-*/
-
-        // Min-Max
-        @SuppressWarnings("deprecation")
-        /*Job j = new Job(c, "minmax");
-        j.setJarByClass(MinMax.class);
-        j.setMapperClass(MinMax.MinMaxMapper.class);
-        j.setReducerClass(MinMax.MinMaxReducer.class);
-*/
+        Job j = new Job(c, "Main");
+        j.setJarByClass(Main.class);
+        j.setMapperClass(TheMapper.class);
 
         // Average
-        /*Job j = new Job(c, "average");
-        j.setJarByClass(Average.class);
-        j.setMapperClass(Average.AverageMapper.class);
-        j.setReducerClass(Average.AverageReducer.class);
-*/
+        //j.setReducerClass(Average.AverageReducer.class);
 
         // Count
-        /*Job j = new Job(c, "count");
-        j.setJarByClass(Count.class);
-        j.setMapperClass(Count.CountMapper.class);
-        j.setReducerClass(Count.CountReducer.class);*/
+        //j.setReducerClass(Count.CountReducer.class);
 
+        // Min-Max
+        //j.setReducerClass(MinMax.MinMaxReducer.class);
 
         // Standard Deviation
-        Job j = new Job(c, "standardDeviation");
-        j.setJarByClass(StandardDeviation.class);
-        j.setMapperClass(StandardDeviation.StandardDeviationMapper.class);
         j.setReducerClass(StandardDeviation.StandardDeviationReducer.class);
 
+        // Summation
+        //j.setReducerClass(Summation.SummationReducer.class);
 
         // COMMON
         j.setOutputKeyClass(Text.class);
