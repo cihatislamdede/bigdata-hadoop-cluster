@@ -6,9 +6,17 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class TheMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> {
-    private final Text theKey = new Text(); 	// key
-    private final int key_idx = 10; 	// key column index
-    private final int value_idx = 3;    // value column index
+    private Text theKey = new Text(); 	// key
+    private int key_idx = 10; 	// key column index
+    private int value_idx = 3;    // value column index
+
+    public void setKey_idx(int key_idx) {
+        this.key_idx = key_idx;
+    }
+
+    public void setValue_idx(int value_idx) {
+        this.value_idx = value_idx;
+    }
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {

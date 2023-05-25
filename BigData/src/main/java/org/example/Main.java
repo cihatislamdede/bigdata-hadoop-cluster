@@ -16,25 +16,42 @@ public class Main {
         String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
         Path input = new Path(files[0]);
         Path output = new Path(files[1]);
+        String reducer = files[2];
+        int key_idx = Integer.parseInt(files[3]);
+        int value_idx = Integer.parseInt(files[4]);
+
+        if (files.length != 5) {
+            System.out.println("Usage: <input> <output> <reducer> <key_idx> <value_idx>");
+            System.exit(1);
+        }
+
+        if (key_idx < 0 || value_idx < 0) {
+            System.out.println("Invalid index");
+            System.exit(1);
+        }
 
         Job j = new Job(c, "Main");
         j.setJarByClass(Main.class);
-        j.setMapperClass(TheMapper.class);
 
-        // Average
-        //j.setReducerClass(Average.AverageReducer.class);
+        TheMapper theMapper = new TheMapper();
+        theMapper.setKey_idx(key_idx);
+        theMapper.setValue_idx(value_idx);
+        j.setMapperClass(theMapper.getClass());
 
-        // Count
-        //j.setReducerClass(Count.CountReducer.class);
-
-        // Min-Max
-        //j.setReducerClass(MinMax.MinMaxReducer.class);
-
-        // Standard Deviation
-        j.setReducerClass(StandardDeviation.StandardDeviationReducer.class);
-
-        // Summation
-        //j.setReducerClass(Summation.SummationReducer.class);
+        if (reducer.equals("avg")) {
+            j.setReducerClass(Average.AverageReducer.class);
+        } else if (reducer.equals("count")) {
+            j.setReducerClass(Count.CountReducer.class);
+        } else if (reducer.equals("minmax")) {
+            j.setReducerClass(MinMax.MinMaxReducer.class);
+        } else if (reducer.equals("std")) {
+            j.setReducerClass(StandardDeviation.StandardDeviationReducer.class);
+        } else if (reducer.equals("sum")) {
+            j.setReducerClass(Summation.SummationReducer.class);
+        } else {
+            System.out.println("Invalid reducer");
+            System.exit(1);
+        }
 
         // COMMON
         j.setOutputKeyClass(Text.class);

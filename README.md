@@ -16,6 +16,7 @@ git clone https://github.com/cihatislamdede/bigdata-hadoop-cluster
 sudo chmod +x start.sh
 ./start.sh
 ```
+
 ```bash
 start hadoop-master container...
 start hadoop-slave1 container...
@@ -50,38 +51,24 @@ Hello    2
 
 ### 5. Some useful commands
 
-#### copy file to hadoop cluster
+- copy source code to hadoop cluster
 
 ```bash
 docker cp BigData/ hadoop-master:/root
-docker cp 18data.txt hadoop-master:/root
 ```
 
-#### docker first run
+- docker first run and average job run
 
 ```bash
-cp 18data.txt input/
+cp book.txt input/
 cd BigData
 mvn package
 cd ..
-cp BigData/target/BigData-1.0-SNAPSHOT.jar input/
-hdfs dfs -put -f BigData/target/BigData-1.0-SNAPSHOT.jar input/
-hdfs dfs -put -f input/18data.txt input/
-yarn jar input/BigData-1.0-SNAPSHOT.jar org.example.Summation input/18data.txt output
-hdfs dfs -cat output/*
-```
-
-#### docker re-run
-
-```bash
-rm -r BigData/target/
-cd BigData
-mvn package
-cd ..
-cp BigData/target/BigData-1.0-SNAPSHOT.jar input/
-hdfs dfs -put -f BigData/target/BigData-1.0-SNAPSHOT.jar input/
-yarn jar input/BigData-1.0-SNAPSHOT.jar org.example.Summation input/18data.txt output
-hdfs dfs -cat output/*
+cp BigData/target/BigData-1.0.jar input/
+hdfs dfs -put -f input/BigData-1.0.jar input/ 
+hdfs dfs -put -f input/book.txt input/
+hadoop jar input/BigData-1.0.jar org.example.Main input/book.txt output-avg avg 10 3
+hdfs dfs -cat output-avg/*
 ```
 
 ### 6. Clear all environment
