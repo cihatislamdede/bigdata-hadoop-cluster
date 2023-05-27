@@ -30,23 +30,10 @@ root@hadoop-master:~#
 ./start-hadoop.sh
 ```
 
-### 4. Run wordcount job to test hadoop cluster
+### 4. Create input folders
 
 ```bash
-./run-wordcount.sh
-```
-
-```bash
-input file1.txt:
-Hello Hadoop
-
-input file2.txt:
-Hello Docker
-
-wordcount output:
-Docker    1
-Hadoop    1
-Hello    2
+./create_input_folders.sh
 ```
 
 ### 5. Some useful commands

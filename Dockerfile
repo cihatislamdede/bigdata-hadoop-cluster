@@ -35,12 +35,12 @@ RUN mv /tmp/ssh_config ~/.ssh/config && \
     mv /tmp/workers $HADOOP_HOME/etc/hadoop/workers && \
     mv /tmp/start-hadoop.sh ~/start-hadoop.sh && \
     mv /tmp/stop-hadoop.sh ~/stop-hadoop.sh && \
-    mv /tmp/run-wordcount.sh ~/run-wordcount.sh && \
+    mv /tmp/create_input_folders.sh ~/create_input_folders.sh && \
     mv /tmp/book.txt ~/book.txt
 
 RUN chmod +x ~/start-hadoop.sh && \
     chmod +x ~/stop-hadoop.sh && \
-    chmod +x ~/run-wordcount.sh && \
+    chmod +x ~/create_input_folders.sh && \
     chmod +x $HADOOP_HOME/sbin/start-dfs.sh && \
     chmod +x $HADOOP_HOME/sbin/start-yarn.sh 
 
@@ -48,4 +48,3 @@ RUN chmod +x ~/start-hadoop.sh && \
 RUN /usr/local/hadoop/bin/hdfs namenode -format
 
 CMD [ "sh", "-c", "service ssh start; bash"]
-
