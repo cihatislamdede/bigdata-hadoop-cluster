@@ -14,12 +14,12 @@ public class StandardDeviation {
 
             for (DoubleWritable value : values) {
                 try {
-                    sum += value.get();
+                    sum += value.get();    
+                    sumSquare += value.get() * value.get();
+                count++;
                 } catch (Exception e) {
-                    sum += 0;
                 }
-                sumSquare += value.get() * value.get();
-                count+=1;
+
             }
             double mean = sum / count;
             double variance = sumSquare / count - mean * mean;

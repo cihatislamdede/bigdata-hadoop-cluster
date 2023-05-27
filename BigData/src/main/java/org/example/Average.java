@@ -14,10 +14,9 @@ public class Average {
             for (DoubleWritable value : values) {
                 try {
                     sum += value.get();
+                    count++;
                 } catch (Exception e) {
-                    sum += 0;
                 }
-                count += 1;
             }
             double average = sum / count;
             context.write(theKey, new DoubleWritable(average));

@@ -11,7 +11,7 @@ public class Count {
             int count = 0;
 
             for (DoubleWritable value : values) {
-                count += 1;
+                count++;
             }
             context.write(year, new DoubleWritable(count));
         }
