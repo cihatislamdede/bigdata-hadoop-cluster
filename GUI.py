@@ -1,4 +1,5 @@
 import subprocess
+import time
 import tkinter as tk
 from tkinter import filedialog, scrolledtext, ttk
 
@@ -392,6 +393,7 @@ class App:
         self.start_map_reduce_button["text"] = "Running..."
         self.start_map_reduce_button["state"] = tk.DISABLED
         self.start_map_reduce_button.update()
+        start = time.time()
         p = subprocess.Popen(
             [
                 "docker",
@@ -405,6 +407,8 @@ class App:
             stdout=subprocess.PIPE,
         )
         _, run_error = p.communicate()
+        end = time.time()
+        print(f"Time taken: {end-start}")
         if run_error:
             print(run_error)
         self.toast_notification("MapReduce completed", duration=1000)
