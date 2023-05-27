@@ -441,7 +441,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     tabs = ["System", "Upload File", "MapReduce Jobs"]
     index_dict = {
-        "Id": 0,
+        #"Id": 0,
         "Name": 1,
         "RatingDist1": 2,
         "pagesNumber": 3,
@@ -457,7 +457,7 @@ if __name__ == "__main__":
         "Rating": 13,
         "RatingDist2": 14,
         "RatingDist5": 15,
-        "ISBN": 16,
+        #"ISBN": 16,
         "RatingDist3": 17,
         "Count of text reviews": 18,
         "PagesNumber": 19,
