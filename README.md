@@ -67,6 +67,7 @@ cd ..
 cp BigData/target/BigData-1.0.jar input/
 hdfs dfs -put -f input/BigData-1.0.jar input/ 
 hdfs dfs -put -f input/book.txt input/
+# Usage: <input> <output> <reducer> <key_idx> <value_idx>
 hadoop jar input/BigData-1.0.jar org.example.Main input/book.txt output-avg avg 10 3
 hdfs dfs -cat output-avg/*
 ```

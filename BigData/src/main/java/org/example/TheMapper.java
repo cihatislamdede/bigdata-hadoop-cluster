@@ -24,7 +24,7 @@ public class TheMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> 
         String line = value.toString();
 
         String[] lineArray = line.split("\t");
-        String k =lineArray[key_idx];
+        String k = lineArray[key_idx];
         Float valueCount_f;
 
         try{

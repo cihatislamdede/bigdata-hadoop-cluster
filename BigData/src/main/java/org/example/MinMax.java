@@ -12,7 +12,11 @@ public class MinMax {
             double max = 0;
             double temp;
             for (DoubleWritable val : values) {
-                temp = val.get();
+                try {
+                    temp = val.get();
+                } catch (Exception e) {
+                    temp = 0;
+                }
                 if (temp > max)
                     max = temp;
                 if (temp < min)

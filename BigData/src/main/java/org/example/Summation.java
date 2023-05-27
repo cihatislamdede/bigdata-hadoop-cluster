@@ -12,7 +12,11 @@ public class Summation {
             double sum = 0;
 
             for (DoubleWritable value : values) {
-                sum += value.get();
+                try {
+                    sum += value.get();
+                } catch (Exception e) {
+                    sum += 0;
+                }
             }
             context.write(year, new DoubleWritable(sum));
         }

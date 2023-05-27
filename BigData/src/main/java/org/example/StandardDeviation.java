@@ -13,7 +13,11 @@ public class StandardDeviation {
             int count = 0;
 
             for (DoubleWritable value : values) {
-                sum += value.get();
+                try {
+                    sum += value.get();
+                } catch (Exception e) {
+                    sum += 0;
+                }
                 sumSquare += value.get() * value.get();
                 count+=1;
             }

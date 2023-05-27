@@ -12,7 +12,11 @@ public class Average {
             int count = 0;
 
             for (DoubleWritable value : values) {
-                sum += value.get();
+                try {
+                    sum += value.get();
+                } catch (Exception e) {
+                    sum += 0;
+                }
                 count += 1;
             }
             double average = sum / count;
