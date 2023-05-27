@@ -11,7 +11,6 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-
         Configuration c = new Configuration();
         String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
         Path input = new Path(files[0]);
@@ -30,13 +29,14 @@ public class Main {
             System.exit(1);
         }
 
-        Job j = new Job(c, "Main");
+        // add parameters in c
+        c.setInt("key_idx", key_idx);
+        c.setInt("value_idx", value_idx);
+
+        Job j = new Job(c, "BigData");
         j.setJarByClass(Main.class);
 
-        TheMapper theMapper = new TheMapper();
-        theMapper.setKey_idx(key_idx);
-        theMapper.setValue_idx(value_idx);
-        j.setMapperClass(theMapper.getClass());
+        j.setMapperClass(TheMapper.class);
 
         if (reducer.equals("avg")) {
             j.setReducerClass(Average.AverageReducer.class);

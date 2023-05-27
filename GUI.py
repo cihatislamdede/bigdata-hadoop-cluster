@@ -362,6 +362,7 @@ class App:
         self.file_name_input.update()
 
     def start_map_reduce(self, **kwargs):
+        print(kwargs)
         input = kwargs["input_file_name"] if kwargs["input_file_name"] != "" else ""
         output_path = (
             kwargs["output_file_name"] if kwargs["output_file_name"] != "" else ""
