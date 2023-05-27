@@ -1,12 +1,13 @@
-import tkinter as tk
 import subprocess
-from tkinter import filedialog, ttk, scrolledtext
+import tkinter as tk
+from tkinter import filedialog, scrolledtext, ttk
 
 
 class App:
     def __init__(self, root: tk.Tk, **kwargs):
         self.tabs = kwargs.get("tabs", [])
         self.index_dict = kwargs.get("index_dict", {})
+        self.functions = kwargs.get("functions", {})
         self.selected_file_path = ""
 
         root.title("Big Data Project")
@@ -32,11 +33,11 @@ class App:
         label = tk.Label(
             root,
             text="System Status",
-            font=("Arial", 14),
+            font=("Arial", 14, "bold"),
             fg="white",
             background=self.bg_color,
         )
-        label.grid(row=0, column=0, padx=5, pady=10)
+        label.grid(row=0, column=0, padx=5, pady=10, columnspan=3)
         system_status_button = tk.Button(
             root,
             text="Check System\nStatus",
@@ -71,11 +72,11 @@ class App:
         label2 = tk.Label(
             root,
             text="Upload File",
-            font=("Arial", 14),
+            font=("Arial", 14, "bold"),
             fg="white",
             background=self.bg_color,
         )
-        label2.grid(row=3, column=0, padx=5, pady=10)
+        label2.grid(row=3, column=0, padx=5, pady=10, columnspan=3)
         select_file_button = tk.Button(
             root,
             text="Select File",
@@ -108,11 +109,11 @@ class App:
         label3 = tk.Label(
             root,
             text="Map Reduce Functions",
-            font=("Arial", 14),
+            font=("Arial", 14, "bold"),
             fg="white",
             background=self.bg_color,
         )
-        label3.grid(row=8, column=0, padx=5, pady=10)
+        label3.grid(row=8, column=0, padx=5, pady=10, columnspan=3)
 
         file_name_input_label = tk.Label(
             root,
@@ -168,6 +169,23 @@ class App:
             fg="white",
             background=self.bg_color,
         )
+        # function label
+        function_label = tk.Label(
+            root,
+            text="Function",
+            font=("Arial", 10),
+            fg="white",
+            background=self.bg_color,
+        )
+        function_label.grid(row=11, column=2, padx=5, pady=10)
+        # function dropdown
+        function_dropdown = ttk.Combobox(
+            root,
+            values=list(self.functions.keys()),
+            state="readonly",
+            width=16,
+        )
+        function_dropdown.grid(row=12, column=2, padx=5, pady=10)
         value_idx_dropdown.grid(row=12, column=1, padx=5, pady=10)
         value_idx_dropdown_label.grid(row=11, column=1, padx=5, pady=10)
         # start map reduce button
@@ -179,6 +197,7 @@ class App:
                 output_file_name=self.output_name_input.get(),
                 key_index=key_idx_dropdown.get(),
                 value_index=value_idx_dropdown.get(),
+                function=function_dropdown.get(),
             ),
             background="lightgreen",
             fg="black",
@@ -194,6 +213,16 @@ class App:
             wrap=tk.WORD,
         )
         self.map_reduce_output_label.grid(row=13, column=1, padx=5, pady=10)
+        # student names
+        student_names_label = tk.Label(
+            root,
+            text="Feyza Şahin\t18011019\nCihat İslam Dede\t19011047",
+            font=("Arial", 8, "italic"),
+            fg="white",
+            background=self.bg_color,
+            anchor="e",
+        )
+        student_names_label.grid_configure(row=14, column=0, columnspan=3, pady=50)
         self.check_system_status()
 
     def toast_notification(
@@ -222,15 +251,14 @@ class App:
         if self.selected_file_path == "":
             self.toast_notification("Please select a file", color="red")
             return
-        self.upload_file_button["state"] = tk.DISABLED
         self.upload_file_button["text"] = "Uploading..."
+        self.upload_file_button["state"] = tk.DISABLED
         self.upload_file_button.update()
         file_name = path.split("/")[-1]
         p = subprocess.Popen(
             ["docker", "cp", path, "hadoop-master:/root/input/"], stdout=subprocess.PIPE
         )
         p.communicate()
-        self.toast_notification(f"{file_name} copied to container", duration=500)
         p = subprocess.Popen(
             [
                 "docker",
@@ -244,10 +272,10 @@ class App:
             stdout=subprocess.PIPE,
         )
         p.communicate()
+        self.toast_notification(f"{file_name} uploaded to HDFS", duration=2000)
         self.upload_file_button["state"] = tk.NORMAL
         self.upload_file_button["text"] = "Upload"
         self.upload_file_button.update()
-        self.toast_notification(f"{file_name} uploaded to HDFS", duration=1500)
         self.update_file_name_input_values()
 
     def check_system_status(self):
@@ -325,6 +353,8 @@ class App:
         output = [i.split("/")[-1].replace("\r", "") for i in output]
         if output == ["ConnectionRefused"]:
             output = ["Please start HDFS"]
+        else:
+            output = output[1:]
         return output
 
     def update_file_name_input_values(self):
@@ -332,8 +362,78 @@ class App:
         self.file_name_input.update()
 
     def start_map_reduce(self, **kwargs):
-        print("Starting map reduce")
-        print(kwargs)
+        input = kwargs["input_file_name"] if kwargs["input_file_name"] != "" else ""
+        output_path = (
+            kwargs["output_file_name"] if kwargs["output_file_name"] != "" else ""
+        )
+        key_index = (
+            self.index_dict[kwargs["key_index"]] if kwargs["key_index"] != "" else ""
+        )
+        value_index = (
+            self.index_dict[kwargs["value_index"]]
+            if kwargs["value_index"] != ""
+            else ""
+        )
+        function = (
+            self.functions[kwargs["function"]] if kwargs["function"] != "" else ""
+        )
+
+        if (
+            input == ""
+            or output_path == ""
+            or key_index == ""
+            or value_index == ""
+            or function == ""
+            or len(kwargs) != 5
+        ):
+            self.toast_notification("Please fill all the fields", color="red")
+            return
+        self.start_map_reduce_button["text"] = "Running..."
+        self.start_map_reduce_button["state"] = tk.DISABLED
+        self.start_map_reduce_button.update()
+        p = subprocess.Popen(
+            [
+                "docker",
+                "exec",
+                "-it",
+                "hadoop-master",
+                "bash",
+                "-c",
+                f"hadoop jar input/BigData-1.0.jar org.example.Main input/{input} {output_path} {function} {key_index} {value_index}",
+            ],
+            stdout=subprocess.PIPE,
+        )
+        _, run_error = p.communicate()
+        if run_error:
+            print(run_error)
+        self.toast_notification("MapReduce completed", duration=1000)
+        self.start_map_reduce_button["state"] = tk.NORMAL
+        self.start_map_reduce_button["text"] = "Start MapReduce"
+        self.start_map_reduce_button.update()
+
+        # hdfs dfs -cat <output>/*
+        p2 = subprocess.Popen(
+            [
+                "docker",
+                "exec",
+                "-it",
+                "hadoop-master",
+                "bash",
+                "-c",
+                f"hdfs dfs -cat {output_path}/*",
+            ],
+            stdout=subprocess.PIPE,
+        )
+        result_output, result_error = p2.communicate()
+        if result_error:
+            print(result_error)
+        result_output = result_output.decode("utf-8")
+        # clear output
+        self.map_reduce_output_label.delete("1.0", tk.END)
+        self.map_reduce_output_label.insert(
+            tk.END,
+            f"### OUTPUT ###\n{result_output}",
+        )
 
 
 if __name__ == "__main__":
@@ -361,5 +461,12 @@ if __name__ == "__main__":
         "Count of text reviews": 18,
         "PagesNumber": 19,
     }
-    app = App(root, tabs=tabs, index_dict=index_dict)
+    functions = {
+        "Average": "avg",
+        "Count": "count",
+        "Min-Max": "minmax",
+        "Std. Deviation": "std",
+        "Summation": "sum",
+    }
+    app = App(root, tabs=tabs, index_dict=index_dict, functions=functions)
     root.mainloop()

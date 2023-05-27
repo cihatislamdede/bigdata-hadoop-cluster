@@ -1,4 +1,5 @@
 package org.example;
+
 import java.io.IOException;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -6,9 +7,9 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class TheMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> {
-    private Text theKey = new Text(); 	// key
-    private int key_idx = 10; 	// key column index
-    private int value_idx = 3;    // value column index
+    private Text theKey = new Text(); // key
+    private int key_idx; // key column index
+    private int value_idx; // value column index
 
     public void setKey_idx(int key_idx) {
         this.key_idx = key_idx;
@@ -27,10 +28,9 @@ public class TheMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> 
         String k = lineArray[key_idx];
         Float valueCount_f;
 
-        try{
+        try {
             valueCount_f = Float.parseFloat(lineArray[value_idx]);
-        }
-        catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             valueCount_f = 0f;
         }
         Integer valueCount_i = valueCount_f.intValue();

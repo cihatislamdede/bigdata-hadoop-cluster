@@ -35,8 +35,7 @@ RUN mv /tmp/ssh_config ~/.ssh/config && \
     mv /tmp/workers $HADOOP_HOME/etc/hadoop/workers && \
     mv /tmp/start-hadoop.sh ~/start-hadoop.sh && \
     mv /tmp/stop-hadoop.sh ~/stop-hadoop.sh && \
-    mv /tmp/create_input_folders.sh ~/create_input_folders.sh && \
-    mv /tmp/book.txt ~/book.txt
+    mv /tmp/create_input_folders.sh ~/create_input_folders.sh
 
 RUN chmod +x ~/start-hadoop.sh && \
     chmod +x ~/stop-hadoop.sh && \
