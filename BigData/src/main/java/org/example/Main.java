@@ -13,11 +13,11 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Configuration c = new Configuration();
         String[] files = new GenericOptionsParser(c, args).getRemainingArgs();
-        Path input = new Path(files[0]);
-        Path output = new Path(files[1]);
-        String reducer = files[2];
-        int key_idx = Integer.parseInt(files[3]);
-        int value_idx = Integer.parseInt(files[4]);
+        Path input = new Path(files[0]); // input directory
+        Path output = new Path(files[1]); // output directory
+        String reducer = files[2]; // avg, count, minmax, std, sum
+        int key_idx = Integer.parseInt(files[3]); // index of key
+        int value_idx = Integer.parseInt(files[4]); // index of value
 
         if (files.length != 5) {
             System.out.println("Usage: <input> <output> <reducer> <key_idx> <value_idx>");

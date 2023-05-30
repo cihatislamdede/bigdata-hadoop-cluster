@@ -62,3 +62,12 @@ hdfs dfs -cat <output>/*
 ```bash
 ./clear.sh
 ```
+
+
+### 7. References
+- Dataset: [Goodreads Book Datasets With User Rating 2M | Kaggle](https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m) 
+- [Run Hadoop Custer within Docker Containers](https://github.com/kiwenlau/hadoop-cluster-docker)
+- [Essential Docker Commands](https://towardsdatascience.com/12-essential-docker-commands-you-should-know-c2d5a7751bb5)
+- [Installation Of Multi-Node Hadoop 3.2.1 Cluster on a Single Machine](https://yashpatil516.medium.com/installation-of-multi-node-hadoop-3-2-1-cluster-on-a-single-machine-fa42e85f7d14)
+- [Hadoop Mapreduce](https://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm)
+- [average-calculation-map-reduce](https://github.com/a-Imantha/average-calculation-map-reduce)
