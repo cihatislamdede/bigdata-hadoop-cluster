@@ -23,33 +23,3 @@
 30	J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings	1:920	1728.0	4:22283	total:106621	25	9	Ballantine Books	1548	2012	eng	J.R.R. Tolkien	4.6	2:1443	5:75533	0345538374	3:6442		
 31	The Lord of the Rings (The Lord of the Rings, #1-3)	1:5774	1184.0	4:126639	total:539513	21	10	Houghton Mifflin Harcourt	90	2004	eng	J.R.R. Tolkien	4.5	2:11142	5:352247	0618517650	3:43711		
 34	The Fellowship of the Ring (The Lord of the Rings, #1)	1:45879	398.0	4:593379	total:2255826	5	9	Houghton Mifflin Harcourt	13935	2003	eng	J.R.R. Tolkien	4.36	2:65166	5:1314771	0618346252	3:236631		
-36	The Lord of the Rings: Weapons and Warfare	1:335	218.0	4:4037	total:20920	5	11	Houghton Mifflin Harcourt	45	2003	eng	Chris   Smith	4.53	2:319	5:14522	0618391002	3:1707		
-37	The Lord of the Rings: Complete Visual Companion	1:4	224.0	4:82	total:380	15	11	Houghton Mifflin Harcourt	6	2004	eng	Jude Fisher	4.5	2:10	5:253	0618510826	3:31		
-38	The Lord of the Rings Box Set	1:5774	1223.0	4:126639	total:539513	19	9		19	2001	eng	J.R.R. Tolkien	4.5	2:11142	5:352247	0618153977	3:43711		
-45	Agile Web Development with Rails: A Pragmatic Guide	1:56	558.0	4:820	total:2080	28	7	Pragmatic Bookshelf	59	2005	eng	Dave Thomas	3.84	2:124	5:580	097669400X	3:500		
-46	Ruby Quickly: Ruby and Rails for the Real World	1:1	360.0	4:0	total:5	1	8	Manning Publications	0	2006		Mark   Watson	3.4	2:0	5:2	1932394745	3:2		
-50	Hatchet (Brian's Saga, #1)	1:14007	208.0	4:92227	total:288973	1	4	Atheneum Books for Young Readers: Richard Jackson Books	12157	2000	eng	Gary Paulsen	3.72	2:26144	5:85440	0689840926	3:71155		
-51	"Hatchet: A Guide for Using ""Hatchet"" in the Classroom"	1:3	48.0	4:8	total:36	28	8	Teacher Created Resources	2	1994	eng	Donna Ickes	4.0	2:2	5:18	1557344493	3:5		
-53	Guts: The True Stories behind Hatchet and the Brian Books	1:54	144.0	4:830	total:2400	23	1	Delacorte Press	336	2001	eng	Gary Paulsen	3.88	2:139	5:770	0385326505	3:607		
-54	Molly Hatchet - 5 of the Best	1:1	56.0	4:0	total:6	10	6	Cherry Lane Music Company	0	2003	eng	Molly Hatchet	4.33	2:0	5:5	1575606240	3:0		
-55	Hatchet Jobs: Writings on Contemporary Fiction	1:10	228.0	4:43	total:123	1	11	The New Press	16	2005	en-US	Dale Peck	3.46	2:10	5:22	1595580271	3:38		
-56	The Woodsman and His Hatchet: Eighty Years on Back Country Survival	1:0	150.0	4:0	total:10	1	10	Stoneydale Press	0	1996		Bud Cheff Sr.	3.6	2:2	5:4	0912299622	3:4		
-57	A Changeling for All Seasons (Changeling Seasons #1)	1:10	304.0	4:49	total:171	1	11	Changeling Press	4	2005	eng	Angela Knight	3.76	2:13	5:57	1595962808	3:42		
-58	Changeling (Changeling, #1)	1:39	256.0	4:352	total:1049	17	8	Viking Juvenile	112	2006	eng	Delia Sherman	3.6	2:97	5:228	0670059676	3:333		
-59	The Changeling Sea	1:79	137.0	4:1623	total:4836	14	4	Firebird	306	2003	eng	Patricia A. McKillip	4.06	2:195	5:1940	0141312629	3:999		
-61	The Changeling	1:13	228.0	4:453	total:1365	8	6	iUniverse	97	2004	eng	Zilpha Keatley Snyder	4.17	2:48	5:611	0595321801	3:240		
-65	Shadows in the Starlight (Changeling Detective, #2)	1:6	288.0	4:77	total:199	6	2	Tor Books	6	2007		Elaine Cunningham	3.68	2:11	5:41	0765348527	3:64		
-66	The Changeling (Daughters of England, #15)	1:2	369.0	4:151	total:439	28	8	Ivy Books	13	1990	eng	Philippa Carr	3.98	2:21	5:152	0449146979	3:113		
-67	The Known World	1:933	388.0	4:12417	total:33493	29	8	Amistad	2632	2006	eng	Edward P. Jones	3.83	2:2460	5:9894	0061159174	3:7789		
-71	Traders, Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives	1:38	334.0	4:569	total:1645	15	5	FT Press	83	2006	eng	Satyajit Das	3.83	2:112	5:492	0273704745	3:434		
-72	Artesia: Adventures in the Known World	1:0	352.0	4:24	total:53	14	12	Archaia	4	2005	eng	Mark Smylie	4.13	2:2	5:19	1932386106	3:8		
-74	The John McPhee Reader (John McPhee Reader, #1)	1:2	416.0	4:224	total:624	1	6	Farrar, Straus and Giroux	37	1982	eng	John McPhee	4.42	2:6	5:336	0374517193	3:56		
-75	Uncommon Carriers	1:21	248.0	4:861	total:1895	16	5	Farrar Straus Giroux	203	2006	en-US	John McPhee	3.95	2:75	5:529	0374280398	3:409		
-76	Heirs of General Practice	1:1	128.0	4:120	total:287	1	4	Farrar, Straus and Giroux	23	1986	eng	John McPhee	4.16	2:6	5:110	0374519749	3:50		
-77	The Control of Nature	1:25	288.0	4:1458	total:3747	1	9	Farrar, Straus and Giroux	305	1990	en-US	John McPhee	4.24	2:88	5:1671	0374522596	3:505		
-78	Annals of the Former World	1:56	720.0	4:1003	total:3472	6	1	Farrar, Straus and Giroux	227	1999	eng	John McPhee	4.34	2:101	5:1933	0374518734	3:379		
-79	Coming Into the Country	1:57	448.0	4:2291	total:6049	1	4	Farrar, Straus and Giroux	262	1991	eng	John McPhee	4.22	2:149	5:2672	0374522871	3:880		
-80	La Place de la Concorde Suisse	1:7	160.0	4:334	total:816	1	4	Farrar, Straus and Giroux	53	1994	fre	John McPhee	3.92	2:44	5:239	0374519323	3:192		
-81	Giving Good Weight	1:3	288.0	4:251	total:587	1	4	Farrar, Straus and Giroux	36	1994	eng	John McPhee	4.22	2:10	5:242	0374516006	3:81		
-82	The Second John McPhee Reader (John McPhee Reader, #2)	1:0	393.0	4:72	total:202	28	2	Farrar, Straus and Giroux	1	1996		John McPhee	4.37	2:2	5:103	0374256861	3:25		
-83	Rising from the Plains	1:7	208.0	4:554	total:1418	1	11	Farrar, Straus and Giroux	99	1987	eng	John McPhee	4.23	2:31	5:616	0374520658	3:210		

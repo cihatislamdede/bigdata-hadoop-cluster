@@ -214,6 +214,17 @@ class App:
             wrap=tk.WORD,
         )
         self.map_reduce_output_label.grid(row=13, column=1, padx=5, pady=10)
+        # save to file button
+        save_to_file_button = tk.Button(
+            root,
+            text="Save to File",
+            command=lambda: self.save_to_file(
+                self.map_reduce_output_label.get("1.0", tk.END)
+            ),
+            background="lightblue",
+            fg="black",
+        )
+        save_to_file_button.grid(row=13, column=2, padx=5, pady=10)
         # student names
         student_names_label = tk.Label(
             root,
@@ -340,7 +351,6 @@ class App:
         self.start_hdfs_button.update()
         self.stop_hdfs_button.update()
         self.toast_notification("HDFS started", duration=1500)
-        # print(output.decode("utf-8"))
         self.update_file_name_input_values()
 
     def get_uploaded_files_from_hdfs(self):
@@ -440,12 +450,30 @@ class App:
             f"### OUTPUT ###\n{result_output}",
         )
 
+    def save_to_file(self, text: str):
+        if len(text) <= 1:
+            self.toast_notification("No output to save!", color="red")
+            return
+        try:
+            file_path = filedialog.asksaveasfilename(
+                defaultextension=".txt",
+                filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")],
+            )
+            if file_path == "":
+                return
+            with open(file_path, "w") as f:
+                f.write(text)
+            self.toast_notification("File saved successfully!")
+        except Exception as e:
+            print(e)
+            self.toast_notification("Error occured while saving file!", color="red")
+
 
 if __name__ == "__main__":
     root = tk.Tk()
     tabs = ["System", "Upload File", "MapReduce Jobs"]
     index_dict = {
-        #"Id": 0,
+        # "Id": 0,
         "Name": 1,
         "RatingDist1": 2,
         "pagesNumber": 3,
@@ -461,7 +489,7 @@ if __name__ == "__main__":
         "Rating": 13,
         "RatingDist2": 14,
         "RatingDist5": 15,
-        #"ISBN": 16,
+        # "ISBN": 16,
         "RatingDist3": 17,
         "Count of text reviews": 18,
         "PagesNumber": 19,
