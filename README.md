@@ -73,6 +73,7 @@ hdfs dfs -cat <output>/*
 - [average-calculation-map-reduce](https://github.com/a-Imantha/average-calculation-map-reduce)
 
 ### 8. Contributors
-
 - [Feyza Şahin](https://github.com/feysahin)
 - [Cihat Islam Dede](https://github.com/cihatislamdede)
+
+<img src="https://bafybeihoks4nxiq6kpceurpkg2zbygizm7f4khz7c7kna4voktvobtigxq.ipfs.w3s.link/ipfs/bafybeihoks4nxiq6kpceurpkg2zbygizm7f4khz7c7kna4voktvobtigxq/scott.png" height="200">
