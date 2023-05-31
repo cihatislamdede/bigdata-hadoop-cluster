@@ -71,3 +71,8 @@ hdfs dfs -cat <output>/*
 - [Installation Of Multi-Node Hadoop 3.2.1 Cluster on a Single Machine](https://yashpatil516.medium.com/installation-of-multi-node-hadoop-3-2-1-cluster-on-a-single-machine-fa42e85f7d14)
 - [Hadoop Mapreduce](https://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm)
 - [average-calculation-map-reduce](https://github.com/a-Imantha/average-calculation-map-reduce)
+
+### 8. Contributors
+
+- [Feyza Şahin](https://github.com/feysahin)
+- [Cihat Islam Dede](https://github.com/cihatislamdede)
